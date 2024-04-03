@@ -1,0 +1,26 @@
+@import "../../variables.css";
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 10%;
+  background-color: var(--color-background);
+}
+
+img {
+  width: 214px;
+}
+
+.menuItems {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+  align-items: center;
+}
+
+.menuItems a {
+  text-decoration: none;
+  color: black;
+}

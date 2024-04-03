@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Commercial",
+    "body": "Lorem ipsum dolor sit amet consectetur. Urna turpis commodo pretium rutrum. Risus duis convallis sed bibendum quis vel mauris.",
+    "imgUrl": "services/commercial.jpg"
+  },
+  {
+    "title": "Residential",
+    "body": "Lorem ipsum dolor sit amet consectetur. Urna turpis commodo pretium rutrum. Risus duis convallis sed bibendum quis vel mauris.",
+    "imgUrl": "services/residential.jpg"
+  },
+  {
+    "title": "Construction",
+    "body": "Lorem ipsum dolor sit amet consectetur. Urna turpis commodo pretium rutrum. Risus duis convallis sed bibendum quis vel mauris.",
+    "imgUrl": "services/construction.jpg"
+  }
+]

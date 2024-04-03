@@ -1,9 +1,16 @@
 
-import styles from "./App.module.css"
+
+import Header from "./components/Header/Header"
+import About from "./components/About/About"
+import Services from "./components/Services/Services"
 
 const App = () => {
   return (
-    <div className={styles.test}>App</div>
+    <div className="App">
+      <Header />
+      <About />
+      <Services />
+    </div>
   )
 }
 

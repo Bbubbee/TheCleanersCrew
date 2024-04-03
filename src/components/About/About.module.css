@@ -1,0 +1,14 @@
+.About {
+  display: flex;
+  padding: 10% 10%;
+  gap: 114px;
+}
+
+.About img {
+  width: 656px;
+  height: 430px;
+}
+
+.title {
+  font-size: 52px;
+}
