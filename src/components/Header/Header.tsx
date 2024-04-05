@@ -17,7 +17,7 @@ const Header = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#footer">Contact Us</a></li>
-          <li><a href="#"><Button>Book Now</Button></a></li>
+          <li className={styles.headerBookingButton}><a href="#"><Button>Book Now</Button></a></li>
         </ul>
       </div>
     </section>

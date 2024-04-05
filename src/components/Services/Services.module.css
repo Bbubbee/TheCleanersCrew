@@ -17,6 +17,16 @@
 
 .serviceCardContainer {
   display: flex;
+  flex-direction: row;
   gap: 57px;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 830px) {
+  .Services {
+  }
+
+  .serviceCardContainer {
+    flex-direction: column;
+  }
 }

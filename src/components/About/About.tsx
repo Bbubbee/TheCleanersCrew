@@ -8,7 +8,11 @@ const About = () => {
       <img src={getImageUrl("spray-bottle.jpg")} alt="" />
 
       <div className={styles.textContainer}>
-        <h2 className={styles.title}>About Us</h2>
+        <div className={styles.titleContainer}>
+          <div className={styles.blueRectangle}></div>
+          <h2 className={styles.title}>About Us</h2>
+        </div>
+
 
         {/* Text description */}
         <div >

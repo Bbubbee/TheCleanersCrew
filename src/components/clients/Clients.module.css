@@ -34,3 +34,12 @@
   width: 180px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 830px) {
+  .Clients {
+  }
+
+  .clientItemsContainer {
+    flex-direction: column;
+  }
+}
