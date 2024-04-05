@@ -6,7 +6,7 @@ import Button from "../../shared/Button"
 
 const Header = () => {
   return (
-    <div className={styles.Header}>
+    <section id="header" className={styles.Header}>
 
       <img src={getImageUrl("the-cleaners-crew-logo.png")} alt="logo" />
 
@@ -14,13 +14,13 @@ const Header = () => {
       <div>
         <ul className={styles.menuItems}>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#footer">Contact Us</a></li>
           <li><a href="#"><Button>Book Now</Button></a></li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
 

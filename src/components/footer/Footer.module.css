@@ -1,0 +1,48 @@
+@import "../../variables.css";
+
+.Footer {
+  margin-top: 5em;
+  width: 100%;
+  background-color: var(--color-background);
+  padding: 8% 10%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer li {
+  list-style-type: none;
+}
+
+/* Contact Information */
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contactItem {
+  display: flex;
+  gap: 1em;
+}
+
+.contactItem img {
+  width: 25px;
+}
+
+/* Navbar */
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  justify-content: center;
+}
+
+.navContainer a {
+  text-decoration: none;
+  color: black;
+}

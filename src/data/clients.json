@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Anytime Fitness",
+    "logo_url": "clients/anytime-fitness-logo.png"
+  },
+  {
+    "name": "Crunch Fitness",
+    "logo_url": "clients/crunch-logo.png"
+  },
+  {
+    "name": "Brilliant Electric",
+    "logo_url": "clients/brilliant-electric-logo.jpeg"
+  }
+]

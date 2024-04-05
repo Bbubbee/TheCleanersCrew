@@ -2,9 +2,10 @@ import styles from "./Services.module.css"
 import services from "../../data/services.json"
 import ServiceCard from "./ServiceCard"
 
+
 const Services = () => {
   return (
-    <div className={styles.Services}>
+    <section id="services" className={styles.Services}>
       <h2 className={styles.title}>
         Services
       </h2>
@@ -17,7 +18,7 @@ const Services = () => {
         )}
       </ul>
 
-    </div>
+    </section>
   )
 }
 

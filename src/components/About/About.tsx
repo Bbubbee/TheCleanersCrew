@@ -4,7 +4,7 @@ import styles from "./About.module.css"
 
 const About = () => {
   return (
-    <div className={styles.About}>
+    <section id="about" className={styles.About} >
       <img src={getImageUrl("spray-bottle.jpg")} alt="" />
 
       <div className={styles.textContainer}>
@@ -29,7 +29,7 @@ const About = () => {
       </div>
 
 
-    </div>
+    </section>
   )
 }
 

@@ -1,8 +1,10 @@
 
 
-import Header from "./components/Header/Header"
-import About from "./components/About/About"
-import Services from "./components/Services/Services"
+import Header from "./components/header/Header"
+import About from "./components/about/About"
+import Services from "./components/services/Services"
+import Clients from "./components/clients/Clients"
+import Footer from "./components/footer/Footer"
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       <Header />
       <About />
       <Services />
+      <Clients />
+      <Footer />
     </div>
   )
 }
